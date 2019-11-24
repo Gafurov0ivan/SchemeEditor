@@ -39,5 +39,6 @@ public class Main {
         String result = textFile.replaceFirst(regex, replace);
         String check = writeFile(path.toString(), result);
         System.out.println(check);
+        System.out.println("SUCCESS");
     }
 }
